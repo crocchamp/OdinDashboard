@@ -46,6 +46,16 @@ input:focus {
 #buttons {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+button {
+    width: 70px;
+    border-radius: 20px;
+    color: black;
+    background-color: lightblue;
 }
 
 .sidebar {
