@@ -30,8 +30,17 @@ header {
     grid-row: 2 / 3;
 }
 
-input {
+input[type=text] {
+    appearance: none;
     width: clamp(200px, 50%, 500px);
+    color: gray;
+    border-radius: 25px;
+    outline: none;
+    background-color: gray;
+}
+
+input:focus {
+    background-color: white;
 }
 
 #buttons {
