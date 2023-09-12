@@ -69,16 +69,22 @@ button {
 
 .content {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 3fr 1fr;
     grid-template-rows: repeat(auto-fit,1fr);
     background-color: gray;
     gap: 20px;
     padding: 40px 20px 40px 20px;
 }
 
+.cardBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit,1fr);
+}
+
 .card {
     background-color: white;
     height: 120px;
-    width: 250px;
+    width: 80%;
     padding: 20px;
 }
