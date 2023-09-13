@@ -103,3 +103,11 @@ button {
     border-radius: 15px;
     padding: 10px;
 }
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 200%;
+}
